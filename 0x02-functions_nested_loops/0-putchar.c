@@ -1,14 +1,19 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
  * main - a program that prints out _putchar
  * Return: 0
  */
 int main(void)
 {
-	char putt = "_putchar";
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	putchar(putt);
 	return (0);
 }
