@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
   * jack_bauer - function print out all minutes of the day
   * Return: 0
@@ -44,7 +44,7 @@ void jack_bauer(void)
 		}
 	}
 exloop:
-	_putchar(' ');
+	;
 }
 
 
