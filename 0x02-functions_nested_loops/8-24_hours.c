@@ -31,14 +31,20 @@ void jack_bauer(void)
 				_putchar(min);
 				_putchar(mins);
 				_putchar('\n');
-				if (hr == '2' && hrs > '3')
+				if (hr == '2' && hrs > '2')
 				{
-					break;
+					if ((min == '5') && (mins == '9'))
+					{
+					goto exloop;
+					}
 				}
 			}
 		}
 		}
 		}
 	}
-	_putchar('\n');
+exloop:
+	_putchar(' ');
 }
+
+
