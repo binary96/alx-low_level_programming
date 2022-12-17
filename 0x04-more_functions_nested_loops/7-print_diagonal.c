@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_line - prints out a line
+ * print_diagonal - prints out a line
  * @n: the number of times the line should be printed
  * Return:
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int i, j;
 
