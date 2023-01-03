@@ -9,18 +9,14 @@
  */
 char *_strchr(char *s, char c)
 {
-	int i, len;
+	int i;
 
-	len = strlen(s);
-	for (i = 0; i < len; i++)
+	for (i = 0; i != '\0'; i++)
 	{
 		if (s[i] == c)
 		{
-			for ( ; i < len; i++)
-			{
-
-			}
+		return (&s[i]);
 		}
 	}
-	return (s);
+	return NULL;
 }
